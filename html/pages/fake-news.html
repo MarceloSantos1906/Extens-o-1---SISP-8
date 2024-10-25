@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Fake News</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        body.index-page {
+            position: relative;
+            z-index: 1;
+        }
+    
+        body.index-page::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('../../images/stock-fakenews-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(2px);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="index-page">
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="fake-news.html">Fake News</a></li>
+            <li><a href="phishing.html">Phishing</a></li>
+            <li><a href="website-seguro.html">Website Seguro</a></li>
+            <li><a href="senhas-seguras.html">Senhas Seguras</a></li>
+            <li><a href="gerenciadores-senha.html">Gerenciadores de Senha</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Validação de Fake News</h1>
+
+        <p>Fake news, ou notícias falsas, são criadas com a intenção de enganar. Elas se espalham rapidamente, principalmente pelas redes sociais. Saber identificá-las é essencial para não ser enganado.</p>
+
+        <h2>Como Identificar Fake News</h2>
+        <ul>
+            <li><b>Verifique a Fonte:</b> Certifique-se de que a notícia foi publicada por um veículo de comunicação confiável.</li>
+            <li><b>Checagem de Fatos:</b> Utilize plataformas como <a href="https://www.aosfatos.org/" target="_blank">Aos Fatos</a> e <a href="https://www.boatos.org/" target="_blank">Boatos.org</a> para verificar a veracidade.</li>
+            <li><b>Considere o Contexto:</b> Verifique a data da publicação e veja se as informações ainda são relevantes.</li>
+        </ul>
+
+        <h2>Plataformas de Verificação de Notícias</h2>
+        <ul>
+            <li><a href="https://www.snopes.com/" target="_blank">Snopes</a></li>
+            <li><a href="https://www.factcheck.org/" target="_blank">FactCheck</a></li>
+            <li><a href="https://www.politifact.com/" target="_blank">PolitiFact</a></li>
+        </ul>
+
+        <img src="../../images/fake-news.png" alt="Fake News Image" style="max-width: 100%; margin-top: 20px;">
+
+        <a href="../index.html" style="display: block; margin-top: 30px;">Voltar para a página principal</a>
+    </div>
+
+</body>
+</html>

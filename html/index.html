@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Cibernética</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body.index-page {
+            position: relative;
+            z-index: 1;
+        }
+    
+        body.index-page::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('../images/stock-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(2px);
+            z-index: -1;
+        }
+    </style>
+    
+</head>
+<body class="index-page">
+
+    <nav>
+        <ul>
+            <li><a href="../html/index.html">Home</a></li>
+            <li><a href="../html/pages/fake-news.html">Fake News</a></li>
+            <li><a href="../html/pages/phishing.html">Phishing</a></li>
+            <li><a href="../html/pages/website-seguro.html">Website Seguro</a></li>
+            <li><a href="../html/pages/senhas-seguras.html">Senhas Seguras</a></li>
+            <li><a href="../html/pages/gerenciadores-senha.html">Gerenciadores de Senha</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <div class="title">Segurança Cibernética</div>
+        <div class="subtitle">O que será apresentado</div>
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <div class="card-icon">🔍</div>
+            <a href="../html/pages/fake-news.html">Validação de Fake News</a>
+        </div>
+        <div class="card">
+            <div class="card-icon">📧</div>
+            <a href="../html/pages/phishing.html">Identificação de Phishing</a>
+        </div>
+        <div class="card">
+            <div class="card-icon">🔒</div>
+            <a href="../html/pages/website-seguro.html">Identificar se Website é Seguro</a>
+        </div>
+        <div class="card">
+            <div class="card-icon">🔑</div>
+            <a href="../html/pages/senhas-seguras.html">Criação de Senhas Seguras</a>
+        </div>
+        <div class="card">
+            <div class="card-icon">🛡️</div>
+            <a href="../html/pages/gerenciadores-senha.html">Gerenciadores de Senha</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 Segurança Cibernética. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>

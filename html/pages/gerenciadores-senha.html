@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciadores de Senha</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        body.index-page {
+            position: relative;
+            z-index: 1;
+        }
+    
+        body.index-page::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('../../images/stock-passmanager-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(2px);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="index-page">
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="fake-news.html">Fake News</a></li>
+            <li><a href="phishing.html">Phishing</a></li>
+            <li><a href="website-seguro.html">Website Seguro</a></li>
+            <li><a href="senhas-seguras.html">Senhas Seguras</a></li>
+            <li><a href="gerenciadores-senha.html">Gerenciadores de Senha</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Gerenciadores de Senha</h1>
+
+        <p>Gerenciadores de senha são ferramentas que armazenam e geram senhas seguras para você, garantindo que suas contas estejam protegidas.</p>
+
+        <h2>Vantagens de Usar Gerenciadores de Senha</h2>
+        <ul>
+            <li><b>Armazenamento Seguro:</b> Mantenha todas as suas senhas em um só lugar, criptografadas e acessíveis apenas por você.</li>
+            <li><b>Geração Automática:</b> Os gerenciadores podem gerar senhas fortes e exclusivas para cada uma das suas contas.</li>
+            <li><b>Facilidade de Uso:</b> A maioria dos gerenciadores preenche automaticamente suas senhas em sites e aplicativos, poupando tempo.</li>
+        </ul>
+
+        <h2>Principais Gerenciadores de Senha</h2>
+        <ul>
+            <li><a href="https://www.lastpass.com/" target="_blank">LastPass</a> - Um dos gerenciadores mais populares, com versões gratuitas e pagas.</li>
+            <li><a href="https://bitwarden.com/" target="_blank">Bitwarden</a> - Uma alternativa de código aberto e segura.</li>
+            <li><a href="https://1password.com/" target="_blank">1Password</a> - Outro gerenciador de alta qualidade, com suporte para várias plataformas.</li>
+        </ul>
+
+        <img src="../../images/password-manager.png" alt="Password Manager Image" style="max-width: 100%; margin-top: 20px;">
+
+        <a href="../index.html" style="display: block; margin-top: 30px;">Voltar para a página principal</a>
+    </div>
+
+</body>
+</html>

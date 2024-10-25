@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c2546;
+    background-image: url('../images/network-pattern.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #38bdf8;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #105780;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    background-color: #38bdf8;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 187, 222, 1);
+}
+
+
+.card {
+    background-color: rgba(16, 87, 128, 0.8);
+    border: 1px solid #38bdf8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 220px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card:hover {
+    background-color: #38bdf8;
+    transform: translateY(-10px);
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    color: #38bdf8;
+    font-size: 0.9em;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação de Phishing</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        body.index-page {
+            position: relative;
+            z-index: 1;
+        }
+    
+        body.index-page::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('../../images/stock-phishing-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(2px);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="index-page">
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="fake-news.html">Fake News</a></li>
+            <li><a href="phishing.html">Phishing</a></li>
+            <li><a href="website-seguro.html">Website Seguro</a></li>
+            <li><a href="senhas-seguras.html">Senhas Seguras</a></li>
+            <li><a href="gerenciadores-senha.html">Gerenciadores de Senha</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Identificação de Phishing</h1>
+
+        <p>Phishing é uma técnica usada por criminosos cibernéticos para roubar informações sensíveis, como senhas e detalhes bancários, enganando as vítimas.</p>
+
+        <h2>Como Identificar um Ataque de Phishing</h2>
+        <ul>
+            <li><b>Emails Suspiciosos:</b> Desconfie de emails que solicitam informações pessoais ou financeiras urgentes.</li>
+            <li><b>Erros de Ortografia:</b> Muitos emails de phishing contêm erros de gramática ou ortografia.</li>
+            <li><b>URLs Enganosas:</b> Passe o mouse sobre links e verifique se o endereço corresponde ao site legítimo.</li>
+        </ul>
+
+        <h2>Ferramentas para Verificar Phishing</h2>
+        <ul>
+            <li><a href="https://www.phishtank.com/" target="_blank">PhishTank</a> - Verifique se um site é malicioso.</li>
+            <li><a href="https://haveibeenpwned.com/" target="_blank">Have I Been Pwned</a> - Verifique se seus dados foram comprometidos.</li>
+        </ul>
+
+        <img src="../../images/phishing.png" alt="Phishing Image" style="max-width: 100%; margin-top: 20px;">
+
+        <a href="../index.html" style="display: block; margin-top: 30px;">Voltar para a página principal</a>
+    </div>
+
+</body>
+</html>

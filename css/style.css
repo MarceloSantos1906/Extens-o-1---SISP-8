@@ -193,6 +193,7 @@ a {
     width: 220px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
+    text-align: -webkit-center;
 }
 
 .card:hover {
@@ -200,7 +201,7 @@ a {
     transform: translateY(-10px);
 }
 
-.card a {
+.card p {
     text-decoration: none;
     color: white;
     font-size: 1.2em;

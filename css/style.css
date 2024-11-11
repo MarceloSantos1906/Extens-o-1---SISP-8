@@ -3,10 +3,42 @@ body {
     background-color: #0c2546;
     background-image: url('../images/network-pattern.png');
     background-size: cover;
+    background-position: center;
+    position: relative;
     color: white;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+body.index-page {
+    position: relative;
+    z-index: 1;
+}
+
+body.index-page::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(0.4) !important;
+    z-index: -1;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
 .header {
@@ -51,17 +83,105 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+a {
+    color: currentcolor;
+    font-weight: bold;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 40px auto;
-    max-width: 1000px;
-    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     border: 1px solid rgba(0, 187, 222, 1);
+    flex-direction:column;
 }
 
+.content h1 {
+    text-align: center;
+}
+
+.content ul {
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 80%;
+}
+
+.content li{
+    text-align: left;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content p {
+    width: 50%;
+    align-self: center;
+}
+
+.content p a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 10px;
+    background-color: #38bdf8;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.content-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 187, 222, 1); 
+}
+
+.content-home h1 {
+    text-align: center;
+}
+
+.content-home ul {
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 80%;
+}
+
+.content-home li{
+    text-align: left;
+}
+
+.content-home h1 {
+    text-align: center;
+}
+
+.content-home p {
+    width: 50%;
+    align-self: center;
+}
+
+.content-home p a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 10px;
+    background-color: #38bdf8;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+}
 
 .card {
     background-color: rgba(16, 87, 128, 0.8);

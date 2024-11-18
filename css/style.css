@@ -218,3 +218,17 @@ footer {
     color: #38bdf8;
     font-size: 0.9em;
 }
+
+.footer-container {
+    max-width: 800px; /* Limita a largura do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+}
+
+footer p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
+}
+
+footer strong {
+    color: #1abc9c; /* Destaque nos títulos */
+}
